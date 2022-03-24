@@ -9,7 +9,7 @@ setup(
     # Needed to actually package something
     packages=['measure'],
     # Needed for dependencies
-    install_requires=['numpy'],
+    install_requires=['numpy', 're'],
     # *strongly* suggested for sharing
     version='0.5',
     license='MIT',
